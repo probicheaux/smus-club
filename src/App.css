@@ -1,20 +1,38 @@
 
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-header {
-  min-height: 100vmax;
-  min-width: 100vmax;
-  display: flex;
-  flex-direction: column;
+  height: 60vh;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 50vmin);
+  font-size: calc(10px + 15vmax);
   color: whitesmoke;
-  background-image: url("/src/img/placeholder.jpg");
-  background-size: 100vmax;
+  background-color: transparent;
 }
+
+.Header-box {
+  background-image: url("/src/img/placeholder.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: table;
+  background-color: transparent;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 
 .App-link {
   color: #61dafb;
