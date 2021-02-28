@@ -4,33 +4,38 @@
 }
 
 .App-header {
-  font-size: calc(10px + 7vmax);
+  font-size: calc(10px+3vmax);
   color: whitesmoke;
   background-color: transparent;
+  font-weight: bold;
 }
 
 p {
   color: whitesmoke;
   background-color: transparent;
-  font-size: calc(10px + 1vmax)
+  font-size: calc(10px + 1vmax);
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+  justify-content: center;
+  align-content: center;
 }
 
 .Content-box {
+  position: absolute;
   width: 80vw;
-  height: 80vh;
-  background-color: rgba(91, 78, 150, 0.11);
-  margin-top: 10vh;
+  height: 55vh;
+  background-color: rgba(41, 34, 71, 0.295);
   margin-left: 10vw;
+  margin-top: 5vw;
+  align-items: center;
 }
 .Header-box {
-  background-image: url("/src/img/placeholder.jpg");
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 75vh;
   background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
 }
 
 

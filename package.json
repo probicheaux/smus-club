@@ -6,8 +6,13 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.3",
+    "ascii-art": "^2.5.0",
+    "ascii-art-font": "^1.0.2",
+    "ascii-art-table": "^1.0.1",
+    "canvas": "^2.6.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-rainbow-ascii": "^1.0.3",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.0"
   },
