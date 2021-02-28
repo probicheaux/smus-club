@@ -12,13 +12,13 @@
 p {
   color: whitesmoke;
   background-color: transparent;
-  font-size: calc(10px + vmax)
+  font-size: calc(10px + 1vmax)
 }
 
 .Content-box {
   width: 80vw;
   height: 80vh;
-  background-color: rgba(255, 255, 255, 0.11);
+  background-color: rgba(91, 78, 150, 0.11);
   margin-top: 10vh;
   margin-left: 10vw;
 }
