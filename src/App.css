@@ -12,7 +12,6 @@
   font-size: calc(10px + 50vmin);
   color: whitesmoke;
   background-image: url("/src/img/placeholder.jpg");
-  background-size: cover;
 }
 
 .App-link {
