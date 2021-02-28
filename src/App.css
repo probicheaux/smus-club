@@ -1,36 +1,36 @@
 
 .App {
   text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
 .App-header {
-  height: 60vh;
-  width: 60vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 15vmax);
+  font-size: calc(10px + 7vmax);
   color: whitesmoke;
   background-color: transparent;
 }
 
+p {
+  color: whitesmoke;
+  background-color: transparent;
+  font-size: calc(10px + vmax)
+}
+
+.Content-box {
+  width: 80vw;
+  height: 80vh;
+  background-color: rgba(255, 255, 255, 0.11);
+  margin-top: 10vh;
+  margin-left: 10vw;
+}
 .Header-box {
   background-image: url("/src/img/placeholder.jpg");
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  display: table;
   background-color: transparent;
-}
-
-.middle {
-  display: table-cell;
-  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 
